@@ -1,0 +1,8 @@
+header {
+	border-bottom: 1px solid var(--border-header-footer);
+}
+
+.button-white-primary {
+	background-color: var(--button-primary-background-color);
+	color: var(--background-text-dark-color);
+}

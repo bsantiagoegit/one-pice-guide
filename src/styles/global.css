@@ -1,1 +1,33 @@
-@import "tailwindcss";
+@import 'tailwindcss';
+
+:root {
+	/* BACKGROUND */
+	--background-header-footer: #f6f6f9;
+	--background-light-color: #ecedf2;
+	--background-text-dark-color: #23242e;
+	--button-primary-background-color: #d6d7e1;
+	/* COLORS */
+	--white-primary-text-color: #f6f6f9;
+	/* BORDERS */
+	--border-header-footer: #b2b4c7;
+	/* 50: '#f6f6f9', //--> White text color 
+	100: '#ecedf2', //--> Light background
+					200: '#d6d7e1', // Button primary background color
+					300: '#b2b4c7', // Button primary background hover color
+					400: '#888ca8',
+					500: '#696e8e',
+					600: '#545775',
+					700: '#45475f',
+					800: '#3b3d51',
+					900: '#2c2d3a',
+					950: '#23242e', //--> Dark background - Black text color */
+}
+
+body {
+	background-color: var(--background-light-color);
+}
+
+header,
+footer {
+	background-color: var(--background-header-footer);
+}
